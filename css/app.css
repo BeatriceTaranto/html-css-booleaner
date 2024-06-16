@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile per l'intestazione */
+.logo {
+    background-color: lightblue;
+    background-image: url(../img/pattern.png);
+}
+
+.logo img {
+    height: 50px;
+}
+
+/* Stile per la sezione principale */
+.main-source {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Stile per la tabella dei dati */
+table {
+    margin-top: 20px;
+}
+
+.thead {
+    background-color: lightblue;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.grey-row {
+    background-color: lightgrey;
+}
+
+/* Stile per il copyright */
+footer {
+    text-align: center;
+    background-color: rgb(7, 21, 100);
+    padding: 20px;
+    color: white;
+}
